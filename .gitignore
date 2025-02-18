@@ -1,0 +1,87 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# Windows OS files
+Thumbs.db
+.DS_Store
+
+# Java build files
+target/
+bin/
+build/
+
+# Maven-specific files
+.mvn/
+!mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Logs and temp files
+logs/
+*.log
+*.tmp
+hs_err_pid*
+
+# Spring Boot properties (optional: ignore local environment-specific configurations)
+application.properties
+application.yml
+application-local.properties
+application-local.yml
+
+# Database files
+*.db
+*.h2.db
+*.mv.db
+
+# Node.js (if frontend is included)
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Linux/Mac executable files
+*.swp
+*.swo
+*.bak
+
